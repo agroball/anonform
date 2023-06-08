@@ -1,0 +1,36 @@
+.header{
+    padding: 0 5.469%;
+    margin: 0;
+    height: 74px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.header__logo {
+  width: 275px;
+  height: 75px;
+  transition: opacity 1s ease-in;
+  cursor: pointer;
+}
+
+.header__logo:hover{
+  opacity: 0.3;
+  transition-duration: 400ms;
+}
+
+.header__back{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+  transition: opacity 1s ease-in;
+}
+
+.header__back:hover{
+  color: black;
+}

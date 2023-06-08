@@ -1,0 +1,47 @@
+.not-found__content {
+  width: 484px;
+  height: 360px;
+  background-color: white;
+  margin: 20px auto 50px;
+  padding-bottom: 20px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.not-found__404 {
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 50px;
+  color: #003c78;
+}
+
+.not-found__note{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #003c78;
+}
+
+.not-found__paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.not-found__back {
+  text-decoration: none;
+  color: #003c78;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 17px;
+  transition: 2s linear;
+}
+
+.not-found__back:hover {
+  color: red;
+}
+
